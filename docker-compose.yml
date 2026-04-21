@@ -1,0 +1,7 @@
+﻿version: '3'
+
+services:
+  monitor:
+    build: .
+    container_name: sre-monitor
+    restart: always
